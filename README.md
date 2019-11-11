@@ -14,15 +14,15 @@ This is a place to take notes and share knowledge. Happy to meet you here and ho
 1. How to Resolve a dead lock
 1. what is mutex
 1. semaphore
-    - reader / writer
-    - monitor locks
+    1. reader / writer
+    1. monitor locks
 1. What is normalization
 1. index
-    - How to realize it
+    1. How to realize it
 1. what is clustered indexes
-    - compare to unclustered indexes
+    1. compare to unclustered indexes
 1. turing complete language
 1. languages
-    - functional
-    - imperetive
-    - declaritive
+    1. functional
+    1. imperetive
+    1. declaritive
