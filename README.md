@@ -26,3 +26,4 @@ This is a place to take notes and share knowledge. Happy to meet you here and ho
     1. functional
     1. imperetive
     1. declaritive
+https://restfulapi.net/resource-naming/
