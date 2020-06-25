@@ -4,7 +4,8 @@
 
 This is a place to take notes and share knowledge. Happy to meet you here and hope you enjoy reading.
 
-## Portal
+## languages-by-examples
+The language examples and tricks that I learned during my programming life.
 
 ### Topics
 
