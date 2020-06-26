@@ -42,3 +42,28 @@ class Solution1:
         )
 
         return rootNode
+
+
+# Note
+# This uses the nature of pop which modifies the original list to construct the list
+# Pay attention to that the traversing start from right and end at right. The order can't be reverted since it is worked with pop to make sure the post order list is consumed correctly.
+class Solution2:
+    def buildTree(self, inorder: List[int], postorder: List[int]) -> TreeNode:
+        ino = list(inorder)
+        poo = list(postorder)
+        dic = {}
+        for i in range(len(inorder)):
+            dic[inorder[i]] = i
+
+        def buildTreeNode(l, r):
+            # stop condition
+            if l > r:
+                return None
+
+            head = TreeNode(poo.pop())
+            i = dic[head.val]
+            head.right = buildTreeNode(i + 1, r)
+            head.left = buildTreeNode(l, i - 1)
+            return head
+
+        return buildTreeNode(0, len(inorder) - 1)
