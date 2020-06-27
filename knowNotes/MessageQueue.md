@@ -51,3 +51,15 @@ Read from the queue when a message push is received.
 
 ### Exchange
 Takes the messages and PUSH them to different queues in a round robbin fashion.
+
+
+## RabbitMQ vs Kafka
+### Features
+Apache Kafka — It is distributed. The data is shared and replicated with assured durability and availability.
+RabbitMQ — It offers comparatively less support for these features.
+### Performance rate
+Apache Kafka — Its performance rate is high, up to 100,000 messages/second.
+RabbitMQ — Whereas, the performance rate of RabbitMQ is around 20,000 messages/second.
+### Processing
+Apache Kafka — It allows reliable log distributed processing. Also, there exist stream processing semantics built into the Kafka Streams.
+RabbitMQ — The consumer is just FIFO based, reading from the HEAD and processing sequentially.
