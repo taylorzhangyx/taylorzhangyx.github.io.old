@@ -23,7 +23,7 @@ Since an new layer is introduced between the client and the server, the actual r
 Back Pressure refers to the situation that the incoming data traffic is larger than the ability to process the data. For example, a server can only handle 5M requests per second, and there are 10M requests coming every second for 1 hour. We could use a message queue to buffer them but if the message queue is smaller than the data that's need to be buffered, some data could be overflow out of the queue and get lost.
 
 ## Kafka
-[Kafka](https://www.youtube.com/watch?v=JalUUBKdcA0) is a data streaming system that could work as a message queue to handle the messages from client. Use pulling to handle messages.
+[Kafka](https://www.youtube.com/watch?v=JalUUBKdcA0) is a data streaming system that could work as a message queue to handle the messages from client. Use pulling to handle messages. Run on top of ZooKeeper instance to achieve the high availability and stability.
 
 ### Basic Architecture
 producer -> broker -> consumer
