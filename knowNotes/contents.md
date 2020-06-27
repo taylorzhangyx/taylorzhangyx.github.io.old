@@ -110,5 +110,11 @@ bilibili
 喜马拉雅
 蚂蚁金服
 美团
+
+955
 微软中国
+Douban
+Google
+Amazon - Shanghai - 广告，前端
+ebay - [jobs](https://jobs.ebayinc.com/job/shanghai/mts-1-software-engineer/403/16466026)
 ```
