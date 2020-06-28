@@ -24,12 +24,6 @@ Paypal
 - 国际化部门
 - 大数据
 
-SAP
-- [job](https://jobs.sap.com/job/Shanghai-Java-Developer-Consumer-Industry-Cloud-Job-31/604608901/)
-- spring
-- backend/full stack project
-- container
-- API
 
 Microsoft
 - Shanghai - [job](https://careers.microsoft.com/professionals/us/en/job/837155/Software-Engineer-all-level-Azure-Stack)
