@@ -26,4 +26,9 @@ class one:
 
 x = one()
 y = one()
-print(x is y)  # -> false
+print(x is y)  # -> false instance checking
+
+# Ternary Operator 三元运算符
+today = "Sun"
+ternary = "true" if today == "Wed" else "false"
+

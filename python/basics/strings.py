@@ -9,3 +9,5 @@ print(x)
 # You can use keywords if you don't want to count.
 "{name} wants to eat {food}".format(name="Bob", food="lasagna")
 # => 'Bob wants to eat lasagna'
+v = 222
+print(f"a new way to read from variable {v}")
