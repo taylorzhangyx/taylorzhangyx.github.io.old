@@ -1,7 +1,7 @@
 
 # Design Pattern
 
-## [1st Tier - Well Known and Most Used](./WellKnownPatterns)
+## [1st Tier - Well Known and Most Used](/DesignPatterns/WellKnownPatterns)
 - Composed Method
 - Creation Method
 - Factory Method
