@@ -31,3 +31,4 @@ https://restfulapi.net/resource-naming/
 
 
 [linktest](/post/MarkdownGuide)
+[design patterns](/DesignPatterns/TableOfContents)
