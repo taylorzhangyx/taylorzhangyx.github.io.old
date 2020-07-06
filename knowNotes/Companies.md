@@ -12,6 +12,17 @@ Douban
 Google
 Amazon - Shanghai - 广告，前端
 
+特斯联
+依图
+云丛
+talking data
+聚合数据
+易观
+AI四小龙
+菜鸟物流
+
+物流行业
+
 
 ebay
 - [jobs](https://jobs.ebayinc.com/job/shanghai/mts-1-software-engineer/403/16466026)
