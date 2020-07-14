@@ -8,9 +8,15 @@
 
 ## Explain how DNS find the IP address
 
+
 ## Establish the connection
+
 
 ## Close the connection
 
 
 ## TCP VS UDP
+
+
+## HTTPS & TLS
+
