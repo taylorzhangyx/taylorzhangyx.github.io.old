@@ -28,6 +28,11 @@ print(s2.upper())  # M
 # deque(['b', 'c', 'd', 'e', 'n'])
 dq.rotate(1)
 print(dq)  # deque(['n', 'b', 'c', 'd', 'e'])
+
 # rotate the dequeue to the left
 dq.rotate(-1)
 print(dq)  # deque(['b', 'c', 'd', 'e', 'n'])
+
+# add multiple elements at once
+dq.extend("xyz")  # this should be a iterable
+print(dq)  # deque(['b', 'c', 'd', 'e', 'n', 'x', 'y', 'z'])
