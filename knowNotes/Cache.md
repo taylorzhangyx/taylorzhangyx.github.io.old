@@ -89,8 +89,6 @@ Without memcached, the memory for each application is separated and memcache can
 - Costly to rebuild after a restart.
 - Only supports Least Recently Used eviction policy.
 
-
-
 ## Redis
 - Data structure store
 - Five data structures: string, hashes(maps), lists, sets, sorted sets

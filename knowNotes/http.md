@@ -21,3 +21,7 @@
 
 ## HTTPS & TLS
 加密的http，在http的基础上增加了TLS加密，使http的通信更加安全。
+
+
+
+master_secret = PRF(pre_master_secret, "master secret", ClientHello.random + ServerHello.random) [0..47];
