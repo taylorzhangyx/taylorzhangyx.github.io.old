@@ -13,8 +13,6 @@ This is most used when you want to make the code more readable. Sometimes the co
 3. Make it possible to refactor the code into a package or class in the future.
 4. Save the space for adding the documentation.
 
-
-
 ## Creation Method
 Use method instead of Constructors to produce new object.
 Also known as **Factory Method** or **Static Factory Method**.

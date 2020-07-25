@@ -5,6 +5,11 @@ This time, X need to get B to proceed but not going to release A.
 while Y need to get A to proceed but not going to release B.
 Then here is a dead lock situation, no one can proceed.
 
+
+# what is required to form a deadlock
+
+
+
 # What to do to solve a deadlock
 System to detect the safety of the system to tell if the resources if in a safe condition.
 The system can monitor the resources and process to determine if the resource request will put the system into a unsafe condition.
