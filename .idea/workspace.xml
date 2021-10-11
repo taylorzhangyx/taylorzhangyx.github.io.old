@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9f2011cc-9890-431c-9dff-f55cccdede59" name="Default Changelist" comment="" />
+    <list default="true" id="9f2011cc-9890-431c-9dff-f55cccdede59" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/golang/listlock/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/golang/listlock/main.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,7 +33,44 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="taylorzhangyx.github.io" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/golang/listlock/main.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build main.go" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1695" height="320" key="GridCell.Tab.0.bottom" timestamp="1624248221640">
+      <screen x="0" y="25" width="1738" height="1095" />
+    </state>
+    <state width="1695" height="320" key="GridCell.Tab.0.bottom/-1440.-1415.1440.2535/0.-1055.1920.1055/0.25.1738.1095@0.25.1738.1095" timestamp="1624248221640" />
+    <state width="1695" height="301" key="GridCell.Tab.0.bottom/0.25.1737.1095@0.25.1737.1095" timestamp="1624021867339" />
+    <state width="1695" height="320" key="GridCell.Tab.0.center" timestamp="1624248221639">
+      <screen x="0" y="25" width="1738" height="1095" />
+    </state>
+    <state width="1695" height="320" key="GridCell.Tab.0.center/-1440.-1415.1440.2535/0.-1055.1920.1055/0.25.1738.1095@0.25.1738.1095" timestamp="1624248221639" />
+    <state width="1695" height="301" key="GridCell.Tab.0.center/0.25.1737.1095@0.25.1737.1095" timestamp="1624021867338" />
+    <state width="1695" height="320" key="GridCell.Tab.0.left" timestamp="1624248221638">
+      <screen x="0" y="25" width="1738" height="1095" />
+    </state>
+    <state width="1695" height="320" key="GridCell.Tab.0.left/-1440.-1415.1440.2535/0.-1055.1920.1055/0.25.1738.1095@0.25.1738.1095" timestamp="1624248221638" />
+    <state width="1695" height="301" key="GridCell.Tab.0.left/0.25.1737.1095@0.25.1737.1095" timestamp="1624021867336" />
+    <state width="1695" height="320" key="GridCell.Tab.0.right" timestamp="1624248221640">
+      <screen x="0" y="25" width="1738" height="1095" />
+    </state>
+    <state width="1695" height="320" key="GridCell.Tab.0.right/-1440.-1415.1440.2535/0.-1055.1920.1055/0.25.1738.1095@0.25.1738.1095" timestamp="1624248221640" />
+    <state width="1695" height="301" key="GridCell.Tab.0.right/0.25.1737.1095@0.25.1737.1095" timestamp="1624021867338" />
   </component>
 </project>
