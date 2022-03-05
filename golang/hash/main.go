@@ -33,6 +33,8 @@ var sd = T {
 
 func main()  {
 	fmt.Println("fdaewf")
+	res := strings.HasPrefix("a，“中文”aaa", "a，“中文”")
+	fmt.Println(res)
 
 
 	// 前缀拼接issueUUID，以优化 issue 维度的查询效率

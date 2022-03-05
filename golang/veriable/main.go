@@ -27,24 +27,27 @@ type Pack struct {
 
 func main() {
 	fmt.Println("start")
-	repeat := 1000000000
-	p1 := genPack()
-	p2 := genPack()
-	pp2 := &p2
-
-	ts1 := time.Now()
-	for i := 0; i < repeat; i++ {
-		p1 = assignV(p1)
-	}
-	fmt.Printf("time code 1: %v\n", time.Since(ts1))
-
-	ts2 := time.Now()
-	for i := 0; i < repeat; i++ {
-		pp2 = assignP(pp2)
-	}
-	fmt.Printf("time code 2: %v\n", time.Since(ts2))
-
-	fmt.Println("end")
+	t1 := time.Now()
+	ts := t1.Unix()
+	fmt.Println("+8:", time.Unix(ts, 0))
+	//repeat := 1000000000
+	//p1 := genPack()
+	//p2 := genPack()
+	//pp2 := &p2
+	//
+	//ts1 := time.Now()
+	//for i := 0; i < repeat; i++ {
+	//	p1 = assignV(p1)
+	//}
+	//fmt.Printf("time code 1: %v\n", time.Since(ts1))
+	//
+	//ts2 := time.Now()
+	//for i := 0; i < repeat; i++ {
+	//	pp2 = assignP(pp2)
+	//}
+	//fmt.Printf("time code 2: %v\n", time.Since(ts2))
+	//
+	//fmt.Println("end")
 }
 
 func genLongStr() string {
