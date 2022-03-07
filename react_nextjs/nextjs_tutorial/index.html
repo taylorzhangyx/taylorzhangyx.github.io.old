@@ -1,0 +1,52 @@
+<!-- index.html -->
+<html>
+  <body>
+    <div id="app"></div>
+    <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+    <!-- Babel Script -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script type="text/jsx">
+      const app = document.getElementById('app');
+      ReactDOM.render(<h1>Develop. Preview. Ship.!!! 🚀</h1>, app);
+    </script>
+    <script type="text/jsx">
+
+        const app = document.getElementById("app")
+
+        function Header({ title }) {
+          return <h1>{`Cool ${title}`}</h1>
+        }
+
+
+
+        function HomePage() {
+            let [likes, setLikes] = React.useState(0)
+            let [dislikes, setDislikes] = React.useState(0)
+            const names = ['Ada Lovelace', 'Grace Hopper', 'Margaret Hamilton', likes, dislikes]
+            function handleClick() {
+                console.log('increment like count', likes);
+                setLikes(++likes);
+            }
+            function handleClick2() {
+                console.log('increment dislikes count', dislikes);
+                setDislikes(++dislikes);
+            }
+            return (
+            <div>
+                <Header title="Develop. Preview. Ship. 🚀" />
+                <ul>
+                {names.map((name,i) => (
+                    <li key={i}>{name} -> <Header title={name}/></li>
+                ))}
+                </ul>
+                <button key="x" onClick={handleClick}>Like</button>
+                <button key="d" onClick={handleClick2}>Dislike</button>
+            </div>
+            )
+        }
+
+      ReactDOM.render(<HomePage />, app)
+    </script>
+  </body>
+</html>
