@@ -1,0 +1,67 @@
+{
+  "name": "Taylorzhang",
+  "short_name": "Taylorzhang",
+  "lang": "zh",
+  "description": "🚀 QWER - Awesome Blog Starter, Built using Svelte with ❤",
+  "id": "https://svelte-qwer.vercel.app",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "categories": [
+    "education",
+    "blog"
+  ],
+  "background_color": "white",
+  "theme_color": "white",
+  "icons": [
+    {
+      "src": "https://svelte-qwer.vercel.app/_app/immutable/assets/avatar-af42d201.png",
+      "sizes": "48x48",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://svelte-qwer.vercel.app/_app/immutable/assets/avatar-af42d201.png",
+      "sizes": "48x48",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "https://svelte-qwer.vercel.app/_app/immutable/assets/avatar-d53277df.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://svelte-qwer.vercel.app/_app/immutable/assets/avatar-d53277df.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "https://svelte-qwer.vercel.app/_app/immutable/assets/avatar-ed12a9e7.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://svelte-qwer.vercel.app/_app/immutable/assets/avatar-ed12a9e7.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "https://svelte-qwer.vercel.app/_app/immutable/assets/avatar-5444ae61.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://svelte-qwer.vercel.app/_app/immutable/assets/avatar-5444ae61.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
